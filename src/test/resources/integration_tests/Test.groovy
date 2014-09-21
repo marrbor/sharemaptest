@@ -20,7 +20,7 @@ def testOut() {
   println "${new File('.').getAbsolutePath()}"
   println "vertx is ${vertx.getClass().getName()}"
   println "Module: ${System.getProperty('vertx.modulename')}"
-  testComplete()
+  //  testComplete()
 }
 
 
